@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+.icon{
+    font-size: 30px;
+    position: absolute;
+    top: -15px;
+    left: 45%;
+    color: black;
+}
+
+.container{
+    width: 90%;
+    max-width: 400px;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    padding: 20px;
+    margin: 100px auto;
+    position: relative;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+form div{
+    margin: 40px 0px;
+    display: flex;
+    position: relative;
+}
+
+form div span{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 15px;
+    color: red;
+}
+
+form label{
+    font-size: 18px;
+}
+
+textarea{
+    width: 200px;
+    padding: 0px;
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    bottom: -3px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+}
+
+button{
+    margin: 10px auto;
+    display: block;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px #fff, 0px 0px 20px #000;
+}
+
+form input{
+    width: 200px;
+    padding: 0px;
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    bottom: -3px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+}
+
+::placeholder{
+    color: rgb(189, 192, 194);
+}
+
+.msg{
+    height: 100px;
+}
+
+.msg label{
+    margin-top: 50px;
+}
+
+#msg{
+    height: 100px;
+}
+
+#submit-error{
+    color: red;
+}
+
